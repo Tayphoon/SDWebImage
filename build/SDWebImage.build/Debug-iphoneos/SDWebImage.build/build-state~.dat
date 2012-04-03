@@ -1,0 +1,448 @@
+TSDWebImage
+v5
+r1
+cCheck dependencies
+cCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDImageCache.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDecoder.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDecoder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDownloader.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageManager.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImagePrefetcher.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImagePrefetcher.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIButton+WebCache.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIButton+WebCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIImageView+WebCache.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIImageView+WebCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/MKAnnotationView+WebCache.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/MKAnnotationView+WebCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/libSDWebImage.a normal armv7
+cCpHeader SDImageCacheDelegate.h build/Debug-iphoneos/SDWebImage/SDImageCacheDelegate.h
+cCpHeader SDWebImageCompat.h build/Debug-iphoneos/SDWebImage/SDWebImageCompat.h
+cCpHeader SDWebImageDecoder.h build/Debug-iphoneos/SDWebImage/SDWebImageDecoder.h
+cCpHeader SDWebImageDownloader.h build/Debug-iphoneos/SDWebImage/SDWebImageDownloader.h
+cCpHeader SDWebImageDownloaderDelegate.h build/Debug-iphoneos/SDWebImage/SDWebImageDownloaderDelegate.h
+cCpHeader SDWebImageManager.h build/Debug-iphoneos/SDWebImage/SDWebImageManager.h
+cCpHeader SDWebImageManagerDelegate.h build/Debug-iphoneos/SDWebImage/SDWebImageManagerDelegate.h
+cCpHeader SDWebImagePrefetcher.h build/Debug-iphoneos/SDWebImage/SDWebImagePrefetcher.h
+cCpHeader UIButton+WebCache.h build/Debug-iphoneos/SDWebImage/UIButton+WebCache.h
+cCpHeader UIImageView+WebCache.h build/Debug-iphoneos/SDWebImage/UIImageView+WebCache.h
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F7179C300000000003AE430
+t1332836803
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F7179C3000000000052C940
+t1332836803
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F7179C50000000000798EA0
+t1332836805
+s7966368
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/MKAnnotationView+WebCache.m
+c000000004F7AAB0A0000000000000878
+t1333439242
+s2168
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m
+c000000004F7AAB0A0000000000002DDE
+t1333439242
+s11742
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCacheDelegate.h
+c000000004F7AAB0A00000000000001FA
+t1333439242
+s506
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageCompat.h
+c000000004F7AAB0A000000000000080C
+t1333439242
+s2060
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDecoder.h
+c000000004F7AAB0A00000000000003A1
+t1333439242
+s929
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDecoder.m
+c000000004F7AAB0A00000000000010D7
+t1333439242
+s4311
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloader.h
+c000000004F7AAB0A00000000000005B7
+t1333439242
+s1463
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloader.m
+c000000004F7AAB0A0000000000001C6E
+t1333439242
+s7278
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloaderDelegate.h
+c000000004F7AAB0A0000000000000269
+t1333439242
+s617
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManager.h
+c000000004F7AAB0A000000000000071B
+t1333439242
+s1819
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManager.m
+c000000004F7AAB0A0000000000002F18
+t1333439242
+s12056
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManagerDelegate.h
+c000000004F7AAB0A00000000000002F2
+t1333439242
+s754
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImagePrefetcher.h
+c000000004F7AAB0A0000000000000451
+t1333439242
+s1105
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImagePrefetcher.m
+c000000004F7AAB0A0000000000000C21
+t1333439242
+s3105
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIButton+WebCache.h
+c000000004F7AAB0A0000000000000EF0
+t1333439242
+s3824
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIButton+WebCache.m
+c000000004F7AAB0A0000000000000919
+t1333439242
+s2329
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIImageView+WebCache.h
+c000000004F7AB3000000000000000EF3
+t1333441280
+s3827
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIImageView+WebCache.m
+c000000004F7AAB0A000000000000089E
+t1333439242
+s2206
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDImageCacheDelegate.h
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageCompat.h
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageDecoder.h
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageDownloader.h
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageDownloaderDelegate.h
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageManager.h
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageManagerDelegate.h
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImagePrefetcher.h
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/UIButton+WebCache.h
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/UIImageView+WebCache.h
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/libSDWebImage.a
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/MKAnnotationView+WebCache.o
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDImageCache.o
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImage.LinkFileList
+c000000004F7AB671000000000000052C
+t1333442161
+s1324
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDecoder.o
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDownloader.o
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageManager.o
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImagePrefetcher.o
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIButton+WebCache.o
+t2
+s0
+
+N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIImageView+WebCache.o
+t2
+s0
+
+CBuild AST from /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/MKAnnotationView+WebCache.m
+r0
+
+CBuild AST from /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m
+r0
+
+CBuild AST from /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDecoder.m
+r0
+
+CBuild AST from /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloader.m
+r0
+
+CBuild AST from /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManager.m
+r0
+
+CBuild AST from /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImagePrefetcher.m
+r0
+
+CBuild AST from /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIButton+WebCache.m
+r0
+
+CBuild AST from /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIImageView+WebCache.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0c225ef1ed2ab541^92cb8ff1ed2ab541^---0#1#0#--18"Check dependencies36"3C6973B9-AA12-496C-9D5D-7AEED2D9A757-
+
+CCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/MKAnnotationView+WebCache.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/MKAnnotationView+WebCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355134964.299219
+e355134964.745016
+r1
+xCompileC
+xbuild/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/MKAnnotationView+WebCache.o
+x/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/MKAnnotationView+WebCache.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/MKAnnotationView+WebCache.me4bf4cf4ed2ab541^bdc2bef4ed2ab541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/MKAnnotationView+WebCache.m0000000000000000^3375"CompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/MKAnnotationView+WebCache.o MKAnnotationView+WebCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-generated-files.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-own-target-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-all-target-headers.hmap -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-project-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/include -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources/armv7 -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources -F/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/MKAnnotationView+WebCache.d --serialize-diagnostics /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/MKAnnotationView+WebCache.dia -c /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/MKAnnotationView+WebCache.m -o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/MKAnnotationView+WebCache.o36"C325922F-F43E-48B8-924C-A70D77C7CAB4-
+
+CCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDImageCache.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355134961.613827
+e355134962.878491
+r1
+xCompileC
+xbuild/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDImageCache.o
+x/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m9d4b9df1ed2ab541^13efe0f2ed2ab541^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m0000000000000000^3297"CompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDImageCache.o SDImageCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-generated-files.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-own-target-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-all-target-headers.hmap -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-project-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/include -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources/armv7 -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources -F/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDImageCache.d --serialize-diagnostics /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDImageCache.dia -c /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m -o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDImageCache.o36"05C9CD47-A472-4AD2-B98B-9F482112A2F9-
+
+CCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDecoder.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDecoder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355134961.619121
+e355134962.712018
+r1
+xCompileC
+xbuild/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDecoder.o
+x/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDecoder.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDecoder.m4da29ef1ed2ab541^e351b6f2ed2ab541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDecoder.m0000000000000000^3327"CompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDecoder.o SDWebImageDecoder.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-generated-files.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-own-target-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-all-target-headers.hmap -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-project-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/include -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources/armv7 -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources -F/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDecoder.d --serialize-diagnostics /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDecoder.dia -c /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDecoder.m -o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDecoder.o36"1E61C01C-A681-49BB-9460-AF3140C370E6-
+
+CCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDownloader.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355134962.713511
+e355134963.399613
+r1
+xCompileC
+xbuild/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDownloader.o
+x/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloader.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloader.m25cab6f2ed2ab541^265666f3ed2ab541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloader.m0000000000000000^3345"CompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDownloader.o SDWebImageDownloader.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-generated-files.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-own-target-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-all-target-headers.hmap -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-project-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/include -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources/armv7 -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources -F/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDownloader.d --serialize-diagnostics /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDownloader.dia -c /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloader.m -o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDownloader.o36"1F83BA76-4CA1-464F-A0DE-258BA74C13B0-
+
+CCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageManager.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355134962.880275
+e355134963.727974
+r1
+xCompileC
+xbuild/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageManager.o
+x/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManager.m577ae1f2ed2ab541^5f5cbaf3ed2ab541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManager.m0000000000000000^3327"CompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageManager.o SDWebImageManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-generated-files.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-own-target-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-all-target-headers.hmap -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-project-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/include -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources/armv7 -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources -F/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageManager.d --serialize-diagnostics /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageManager.dia -c /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManager.m -o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageManager.o36"7E1359D2-ED18-473F-83AC-AF7F2E95A837-
+
+CCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImagePrefetcher.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImagePrefetcher.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355134963.401120
+e355134964.167229
+r1
+xCompileC
+xbuild/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImagePrefetcher.o
+x/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImagePrefetcher.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImagePrefetcher.mfacf66f3ed2ab541^bedd2af4ed2ab541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImagePrefetcher.m0000000000000000^3345"CompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImagePrefetcher.o SDWebImagePrefetcher.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-generated-files.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-own-target-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-all-target-headers.hmap -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-project-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/include -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources/armv7 -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources -F/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImagePrefetcher.d --serialize-diagnostics /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImagePrefetcher.dia -c /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImagePrefetcher.m -o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImagePrefetcher.o36"04C3C232-0CA9-4740-8902-25CF0ED9CF86-
+
+CCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIButton+WebCache.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIButton+WebCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355134963.740283
+e355134964.297899
+r1
+xCompileC
+xbuild/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIButton+WebCache.o
+x/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIButton+WebCache.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIButton+WebCache.m55a5bdf3ed2ab541^42424cf4ed2ab541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIButton+WebCache.m0000000000000000^3327"CompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIButton+WebCache.o UIButton+WebCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-generated-files.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-own-target-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-all-target-headers.hmap -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-project-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/include -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources/armv7 -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources -F/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIButton+WebCache.d --serialize-diagnostics /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIButton+WebCache.dia -c /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIButton+WebCache.m -o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIButton+WebCache.o36"2604D3DF-131B-4D33-A3C0-18B983363CE1-
+
+CCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIImageView+WebCache.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIImageView+WebCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s355134964.168607
+e355134964.797302
+r1
+xCompileC
+xbuild/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIImageView+WebCache.o
+x/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIImageView+WebCache.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIImageView+WebCache.m7f4c2bf4ed2ab541^fc1bccf4ed2ab541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIImageView+WebCache.m0000000000000000^3345"CompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIImageView+WebCache.o UIImageView+WebCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wmissing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.0 -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-generated-files.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-own-target-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-all-target-headers.hmap -iquote /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/SDWebImage-project-headers.hmap -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/include -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources/armv7 -I/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/DerivedSources -F/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIImageView+WebCache.d --serialize-diagnostics /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIImageView+WebCache.dia -c /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIImageView+WebCache.m -o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIImageView+WebCache.o36"5ADD7DEE-2F4F-4132-A888-E7F86874FB99-
+
+CCpHeader SDImageCacheDelegate.h build/Debug-iphoneos/SDWebImage/SDImageCacheDelegate.h
+s355134978.866794
+e355134978.894063
+r1
+xCpHeader
+xSDImageCacheDelegate.h
+xbuild/Debug-iphoneos/SDWebImage/SDImageCacheDelegate.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/SDWebImage/SDImageCacheDelegate.ha0fcdd02ee2ab541^1de5e402ee2ab541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDImageCacheDelegate.h000000000080d041^758"CpHeader SDImageCacheDelegate.h build/Debug-iphoneos/SDWebImage/SDImageCacheDelegate.h    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCacheDelegate.h /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage36"9C4D0AF7-FE01-4B4B-9A05-6D5BEDBEC7AA-
+
+CCpHeader SDWebImageCompat.h build/Debug-iphoneos/SDWebImage/SDWebImageCompat.h
+s355134978.905214
+e355134978.909313
+r1
+xCpHeader
+xSDWebImageCompat.h
+xbuild/Debug-iphoneos/SDWebImage/SDWebImageCompat.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/SDWebImage/SDWebImageCompat.h57d1e702ee2ab541^89d4e802ee2ab541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageCompat.h000000000080d041^746"CpHeader SDWebImageCompat.h build/Debug-iphoneos/SDWebImage/SDWebImageCompat.h    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageCompat.h /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage36"F30C716A-633B-4B5A-A99F-9E2ACBA8771C-
+
+CCpHeader SDWebImageDecoder.h build/Debug-iphoneos/SDWebImage/SDWebImageDecoder.h
+s355134978.910548
+e355134978.913370
+r1
+xCpHeader
+xSDWebImageDecoder.h
+xbuild/Debug-iphoneos/SDWebImage/SDWebImageDecoder.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphoneos/SDWebImage/SDWebImageDecoder.h0e2ee902ee2ab541^2fdce902ee2ab541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageDecoder.h000000000080d041^749"CpHeader SDWebImageDecoder.h build/Debug-iphoneos/SDWebImage/SDWebImageDecoder.h    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDecoder.h /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage36"F625CA2D-CEEE-44F8-A8EF-89EF128AB9A2-
+
+CCpHeader SDWebImageDownloader.h build/Debug-iphoneos/SDWebImage/SDWebImageDownloader.h
+s355134978.914611
+e355134978.917623
+r1
+xCpHeader
+xSDWebImageDownloader.h
+xbuild/Debug-iphoneos/SDWebImage/SDWebImageDownloader.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/SDWebImage/SDWebImageDownloader.h9b37ea02ee2ab541^e5efea02ee2ab541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageDownloader.h000000000080d041^758"CpHeader SDWebImageDownloader.h build/Debug-iphoneos/SDWebImage/SDWebImageDownloader.h    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloader.h /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage36"62DF2FAC-39FB-4B21-A5D7-45900AFFAAC3-
+
+CCpHeader SDWebImageDownloaderDelegate.h build/Debug-iphoneos/SDWebImage/SDWebImageDownloaderDelegate.h
+s355134978.919459
+e355134978.974176
+r1
+xCpHeader
+xSDWebImageDownloaderDelegate.h
+xbuild/Debug-iphoneos/SDWebImage/SDWebImageDownloaderDelegate.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphoneos/SDWebImage/SDWebImageDownloaderDelegate.he676eb02ee2ab541^aca8f902ee2ab541^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageDownloaderDelegate.h000000000080d041^782"CpHeader SDWebImageDownloaderDelegate.h build/Debug-iphoneos/SDWebImage/SDWebImageDownloaderDelegate.h    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageDownloaderDelegate.h /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage36"E597E9C4-EDEC-4BF6-BD98-14CB39BBA444-
+
+CCpHeader SDWebImageManager.h build/Debug-iphoneos/SDWebImage/SDWebImageManager.h
+s355134978.986668
+e355134978.992787
+r1
+xCpHeader
+xSDWebImageManager.h
+xbuild/Debug-iphoneos/SDWebImage/SDWebImageManager.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphoneos/SDWebImage/SDWebImageManager.hb939fd02ee2ab541^ad33fe02ee2ab541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageManager.h000000000080d041^749"CpHeader SDWebImageManager.h build/Debug-iphoneos/SDWebImage/SDWebImageManager.h    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManager.h /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage36"ACC498F4-6A6A-401F-9BB8-F1F242849BCA-
+
+CCpHeader SDWebImageManagerDelegate.h build/Debug-iphoneos/SDWebImage/SDWebImageManagerDelegate.h
+s355134978.994031
+e355134978.997029
+r1
+xCpHeader
+xSDWebImageManagerDelegate.h
+xbuild/Debug-iphoneos/SDWebImage/SDWebImageManagerDelegate.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphoneos/SDWebImage/SDWebImageManagerDelegate.hc093fe02ee2ab541^f354ff02ee2ab541^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageManagerDelegate.h000000000080d041^773"CpHeader SDWebImageManagerDelegate.h build/Debug-iphoneos/SDWebImage/SDWebImageManagerDelegate.h    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImageManagerDelegate.h /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage36"A930D42F-F5FA-4A05-9246-25AEAA5C0C61-
+
+CCpHeader SDWebImagePrefetcher.h build/Debug-iphoneos/SDWebImage/SDWebImagePrefetcher.h
+s355134978.998239
+e355134979.002198
+r1
+xCpHeader
+xSDWebImagePrefetcher.h
+xbuild/Debug-iphoneos/SDWebImage/SDWebImagePrefetcher.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/SDWebImage/SDWebImagePrefetcher.h40a0ff02ee2ab541^da8f0003ee2ab541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImagePrefetcher.h000000000080d041^758"CpHeader SDWebImagePrefetcher.h build/Debug-iphoneos/SDWebImage/SDWebImagePrefetcher.h    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDWebImagePrefetcher.h /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage36"7E768A57-9AFC-415A-8BB9-426472B6F2F3-
+
+CCpHeader UIButton+WebCache.h build/Debug-iphoneos/SDWebImage/UIButton+WebCache.h
+s355134979.003617
+e355134979.057238
+r1
+xCpHeader
+xUIButton+WebCache.h
+xbuild/Debug-iphoneos/SDWebImage/UIButton+WebCache.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphoneos/SDWebImage/UIButton+WebCache.hd7320103ee2ab541^f9681103ee2ab541^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/UIButton+WebCache.h000000000080d041^749"CpHeader UIButton+WebCache.h build/Debug-iphoneos/SDWebImage/UIButton+WebCache.h    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIButton+WebCache.h /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage36"EF68C0A7-8B35-4802-A387-65C9611D59E0-
+
+CCpHeader UIImageView+WebCache.h build/Debug-iphoneos/SDWebImage/UIImageView+WebCache.h
+s355134979.067896
+e355134979.074332
+r1
+xCpHeader
+xUIImageView+WebCache.h
+xbuild/Debug-iphoneos/SDWebImage/UIImageView+WebCache.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/SDWebImage/UIImageView+WebCache.h95631203ee2ab541^ea201303ee2ab541^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/UIImageView+WebCache.h000000000080d041^758"CpHeader UIImageView+WebCache.h build/Debug-iphoneos/SDWebImage/UIImageView+WebCache.h    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/UIImageView+WebCache.h /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage36"7874B85B-3B49-471A-A065-9517A73559A2-
+
+CLibtool /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/libSDWebImage.a normal armv7
+s355134964.830177
+e355134964.844949
+r1
+xLibtool
+x/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/libSDWebImage.a
+xnormal
+xarmv7
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Libtool build/Debug-iphoneos/libSDWebImage.a normal armv7d89fd4f4ed2ab541^ad50d8f4ed2ab541^-159"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC -0#0#0#--1047"Libtool build/Debug-iphoneos/libSDWebImage.a normal armv7    cd /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos -filelist /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImage.LinkFileList -ObjC -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/libSDWebImage.a36"5A726F35-ACFE-42BD-A71B-EEAA961F1475-
+
