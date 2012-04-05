@@ -19,7 +19,7 @@ typedef enum
 } SDWebImageOptions;
 
 #if NS_BLOCKS_AVAILABLE
-typedef void(^SuccessBlock)(UIImage *image);
+typedef void(^SuccessBlock)(UIImage ** image);
 typedef void(^FailureBlock)(NSError *error);
 #endif
 

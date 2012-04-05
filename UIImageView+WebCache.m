@@ -36,17 +36,17 @@
 }
 
 #if NS_BLOCKS_AVAILABLE
-- (void)setImageWithURL:(NSURL *)url success:(void (^)(UIImage *image))success failure:(void (^)(NSError *error))failure;
+- (void)setImageWithURL:(NSURL *)url success:(SuccessBlock)success failure:(FailureBlock)failure;
 {
     [self setImageWithURL:url placeholderImage:nil success:success failure:failure];
 }
 
-- (void)setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder success:(void (^)(UIImage *image))success failure:(void (^)(NSError *error))failure;
+- (void)setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder success:(SuccessBlock)success failure:(FailureBlock)failure;
 {
     [self setImageWithURL:url placeholderImage:placeholder options:0 success:success failure:failure];
 }
 
-- (void)setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder options:(SDWebImageOptions)options success:(void (^)(UIImage *image))success failure:(void (^)(NSError *error))failure;
+- (void)setImageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder options:(SDWebImageOptions)options success:(SuccessBlock)success failure:(FailureBlock)failure;
 {
     SDWebImageManager *manager = [SDWebImageManager sharedManager];
 
