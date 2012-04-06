@@ -41,11 +41,6 @@ c000000004F7179C50000000000798EA0
 t1332836805
 s7966368
 
-N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.h
-c000000004F7AAB0A0000000000000443
-t1333439242
-s1091
-
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m
 c000000004F7AAB0A0000000000002DDE
 t1333439242
@@ -132,52 +127,52 @@ t1333519562
 s2134
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDImageCacheDelegate.h
-t1333705116
-s506
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageCompat.h
-t1333705117
-s2060
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageDecoder.h
-t1333705117
-s929
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageDownloader.h
-t1333705117
-s1463
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageDownloaderDelegate.h
-t1333705117
-s617
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageManager.h
-t1333705117
-s1888
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImageManagerDelegate.h
-t1333705117
-s754
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/SDWebImagePrefetcher.h
-t1333705117
-s1105
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/UIButton+WebCache.h
-t1333705117
-s3752
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/SDWebImage/UIImageView+WebCache.h
-t1333705117
-s3755
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/Debug-iphoneos/libSDWebImage.a
-t1333705103
-s244472
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDImageCache.o
-t1333705100
-s35076
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImage.LinkFileList
 c000000004F7EB98B0000000000000480
@@ -185,28 +180,28 @@ t1333705099
 s1152
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDecoder.o
-t1333705100
-s16044
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageDownloader.o
-t1333705101
-s30964
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImageManager.o
-t1333705101
-s34436
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDWebImagePrefetcher.o
-t1333705102
-s20160
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIButton+WebCache.o
-t1333705102
-s52288
+t2
+s0
 
 N/Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/UIImageView+WebCache.o
-t1333705102
-s52148
+t2
+s0
 
 CBuild AST from /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m
 r0
@@ -231,7 +226,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1712d03c102fb541^fe9bdf3c102fb541^---0#1#0#--18"Check dependencies36"8CE9493C-BC33-4AD9-A2A7-E591EE1D9FC0-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfd689c0bf12eb541^9c4eaa0bf12eb541^---0#1#0#--18"Check dependencies36"D1F87874-028B-45BC-91FE-742218DEC018-
 
 CCompileC build/SDWebImage.build/Debug-iphoneos/SDWebImage.build/Objects-normal/armv7/SDImageCache.o /Users/Tayphoon/Projects/SideCastr/ipad-client/Externals/SDWebImage/SDImageCache.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s355397899.701343
