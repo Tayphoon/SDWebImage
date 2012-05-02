@@ -11,6 +11,11 @@
 #import "SDWebImageDownloader.h"
 #import <objc/message.h>
 
+#if NS_BLOCKS_AVAILABLE
+typedef void(^SuccessBlock)(UIImage *image);
+typedef void(^FailureBlock)(NSError *error);
+#endif
+
 static SDWebImageManager *instance;
 
 @implementation SDWebImageManager
@@ -107,6 +112,8 @@ static SDWebImageManager *instance;
 #if NS_BLOCKS_AVAILABLE
 - (void)downloadWithURL:(NSURL *)url delegate:(id)delegate options:(SDWebImageOptions)options success:(SuccessBlock)success failure:(FailureBlock)failure
 {
+    // repeated logic from above due to requirement for backwards compatability for iOS versions without blocks
+    
     // Very common mistake is to send the URL using NSString object instead of NSURL. For some strange reason, XCode won't
     // throw any warning for this type mismatch. Here we failsafe this error by allowing URLs to be passed as NSString.
     if ([url isKindOfClass:NSString.class])
@@ -119,15 +126,19 @@ static SDWebImageManager *instance;
         return;
     }
     
-    // Check the on-disk cache async so we don't block the main thread
+     // Check the on-disk cache async so we don't block the main thread
     [cacheDelegates addObject:delegate];
     [cacheURLs addObject:url];
+    SuccessBlock successCopy = [success copy];
+    FailureBlock failureCopy = [failure copy];
     NSDictionary *info = [NSDictionary dictionaryWithObjectsAndKeys:delegate, @"delegate", 
                                                                     url, @"url", 
                                                                     [NSNumber numberWithInt:options], @"options",
-                                                                    success, @"successBlock",
-                                                                    failure, @"failureBlock",
+                                                                    successCopy, @"successBlock",
+                                                                    failureCopy, @"failureBlock",
                                                                     nil];
+    SDWIRelease(successCopy);
+    SDWIRelease(failureCopy);
     [[SDImageCache sharedImageCache] queryDiskCacheForKey:[url absoluteString] delegate:self userInfo:info];
 }
 #endif
@@ -203,6 +214,14 @@ static SDWebImageManager *instance;
     {
         objc_msgSend(delegate, @selector(webImageManager:didFinishWithImage:forURL:), self, image, url);
     }
+
+#if NS_BLOCKS_AVAILABLE
+    if ([info objectForKey:@"success"])
+    {
+        SuccessBlock success = [info objectForKey:@"success"];
+        success(image);
+    }
+#endif
 
     [cacheDelegates removeObjectAtIndex:idx];
     [cacheURLs removeObjectAtIndex:idx];
