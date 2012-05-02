@@ -11,11 +11,6 @@
 #import "SDWebImageDownloader.h"
 #import <objc/message.h>
 
-#if NS_BLOCKS_AVAILABLE
-typedef void(^SuccessBlock)(UIImage *image);
-typedef void(^FailureBlock)(NSError *error);
-#endif
-
 static SDWebImageManager *instance;
 
 @implementation SDWebImageManager
@@ -214,14 +209,6 @@ static SDWebImageManager *instance;
     {
         objc_msgSend(delegate, @selector(webImageManager:didFinishWithImage:forURL:), self, image, url);
     }
-
-#if NS_BLOCKS_AVAILABLE
-    if ([info objectForKey:@"success"])
-    {
-        SuccessBlock success = [info objectForKey:@"success"];
-        success(image);
-    }
-#endif
 
     [cacheDelegates removeObjectAtIndex:idx];
     [cacheURLs removeObjectAtIndex:idx];
