@@ -98,15 +98,48 @@ static SDImageCache *instance;
 
 #pragma mark SDImageCache (private)
 
+- (NSString*)MD5FromString:(NSString*)data {
+	// Create pointer to the string as UTF8
+	const char* ptr = [data UTF8String];
+    
+	// Create byte array of unsigned chars
+	unsigned char md5Buffer[CC_MD5_DIGEST_LENGTH];
+    
+	// Create 16 byte MD5 hash value, store in buffer
+	CC_MD5(ptr, (CC_LONG) strlen(ptr), md5Buffer);
+    
+	// Convert MD5 value in the buffer to NSString of hex values
+	NSMutableString* output = [NSMutableString stringWithCapacity:CC_MD5_DIGEST_LENGTH * 2];
+	for (int i = 0; i < CC_MD5_DIGEST_LENGTH; i++) {
+		[output appendFormat:@"%02x",md5Buffer[i]];
+	}
+    
+	return output;
+}
+
+- (NSString*)getPathComponentForKey:(NSString*)key {
+    NSString * fileDir = [key stringByDeletingLastPathComponent];
+
+    if (![fileDir hasPrefix:@"http://"] && [fileDir hasPrefix:@"http:/"])
+        fileDir = [fileDir stringByReplacingOccurrencesOfString:@"http:/" withString:@"http://"];
+    return fileDir;
+}
+
 - (NSString *)cachePathForKey:(NSString *)key
 {
-    const char *str = [key UTF8String];
-    unsigned char r[CC_MD5_DIGEST_LENGTH];
-    CC_MD5(str, (CC_LONG)strlen(str), r);
-    NSString *filename = [NSString stringWithFormat:@"%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x",
-                          r[0], r[1], r[2], r[3], r[4], r[5], r[6], r[7], r[8], r[9], r[10], r[11], r[12], r[13], r[14], r[15]];
+    BOOL isKeyPathToFolder = NO;
+    NSString * filename = [key lastPathComponent];
+    NSString * fileDir = [self getPathComponentForKey:key];
+    NSString * fileExtension = [filename pathExtension];
 
-    return [diskCachePath stringByAppendingPathComponent:filename];
+    filename = [self MD5FromString:filename];    
+    
+    isKeyPathToFolder = [fileExtension length] == 0;
+
+    fileDir = (isKeyPathToFolder) ? [self MD5FromString:key] : [self MD5FromString:fileDir];
+        
+    return (isKeyPathToFolder) ? [diskCachePath stringByAppendingPathComponent:fileDir] :
+                                 [[diskCachePath stringByAppendingPathComponent:fileDir] stringByAppendingPathComponent:filename];
 }
 
 - (void)storeKeyWithDataToDisk:(NSArray *)keyAndData
@@ -116,10 +149,20 @@ static SDImageCache *instance;
 
     NSString *key = [keyAndData objectAtIndex:0];
     NSData *data = [keyAndData count] > 1 ? [keyAndData objectAtIndex:1] : nil;
+    
+    NSString * imageCachePath = [self cachePathForKey:key];
+    NSString * imageCacheDirPath = [imageCachePath stringByDeletingLastPathComponent];
+
+    if (![fileManager fileExistsAtPath: imageCacheDirPath]) {
+        [fileManager createDirectoryAtPath:imageCacheDirPath
+                                  withIntermediateDirectories:YES
+                                                   attributes:nil
+                                                        error:NULL];
+    }
 
     if (data)
     {
-        [fileManager createFileAtPath:[self cachePathForKey:key] contents:data attributes:nil];
+        [fileManager createFileAtPath:imageCachePath contents:data attributes:nil];
     }
     else
     {
@@ -129,11 +172,11 @@ static SDImageCache *instance;
         if (image)
         {
 #if TARGET_OS_IPHONE
-            [fileManager createFileAtPath:[self cachePathForKey:key] contents:UIImageJPEGRepresentation(image, (CGFloat)1.0) attributes:nil];
+            [fileManager createFileAtPath:imageCachePath contents:UIImageJPEGRepresentation(image, (CGFloat)1.0) attributes:nil];
 #else
             NSArray*  representations  = [image representations];
             NSData* jpegData = [NSBitmapImageRep representationOfImageRepsInArray: representations usingType: NSJPEGFileType properties:nil];
-            [fileManager createFileAtPath:[self cachePathForKey:key] contents:jpegData attributes:nil];
+            [fileManager createFileAtPath:imageCachePath contents:jpegData attributes:nil];
 #endif
             SDWIRelease(image);
         }
@@ -312,7 +355,11 @@ static SDImageCache *instance;
 
     if (fromDisk)
     {
-        [[NSFileManager defaultManager] removeItemAtPath:[self cachePathForKey:key] error:nil];
+        NSError * error = nil;
+        [[NSFileManager defaultManager] removeItemAtPath:[self cachePathForKey:key] error:&error];
+        if(error) {
+            NSLog(@"Error delete cached files: %@", error);
+        }
     }
 }
 
