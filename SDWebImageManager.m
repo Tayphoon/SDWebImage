@@ -126,12 +126,18 @@ static SDWebImageManager *instance;
     [cacheURLs addObject:url];
     SuccessBlock successCopy = [success copy];
     FailureBlock failureCopy = [failure copy];
-    NSDictionary *info = [NSDictionary dictionaryWithObjectsAndKeys:delegate, @"delegate", 
+    NSMutableDictionary *info = [NSMutableDictionary dictionaryWithObjectsAndKeys:delegate, @"delegate",
                                                                     url, @"url", 
                                                                     [NSNumber numberWithInt:options], @"options",
-                                                                    successCopy, @"successBlock",
-                                                                    failureCopy, @"failureBlock",
                                                                     nil];
+    if(successCopy) {
+        [info setObject:successCopy forKey:@"successBlock"];
+    }
+    
+    if(failureCopy) {
+        [info setObject:failureCopy forKey:@"failureBlock"];
+    }
+    
     SDWIRelease(successCopy);
     SDWIRelease(failureCopy);
     [[SDImageCache sharedImageCache] queryDiskCacheForKey:[url absoluteString] delegate:self userInfo:info];
@@ -344,6 +350,8 @@ static SDWebImageManager *instance;
             id<SDWebImageManagerDelegate> delegate = [downloadDelegates objectAtIndex:uidx];
             SDWIRetain(delegate);
             SDWIAutorelease(delegate);
+            [downloaders removeObjectAtIndex:uidx];
+            [downloadDelegates removeObjectAtIndex:uidx];
             
 #if NS_BLOCKS_AVAILABLE
             FailureBlock failureBlock = [downloader.userInfo objectForKey:@"failureBlock"];
@@ -361,9 +369,6 @@ static SDWebImageManager *instance;
             {
                 objc_msgSend(delegate, @selector(webImageManager:didFailWithError:forURL:), self, error, downloader.url);
             }
-
-            [downloaders removeObjectAtIndex:uidx];
-            [downloadDelegates removeObjectAtIndex:uidx];
         }
     }
 

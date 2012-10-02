@@ -189,6 +189,7 @@ static SDImageCache *instance;
 {
     NSString *key = [arguments objectForKey:@"key"];
     id <SDImageCacheDelegate> delegate = [arguments objectForKey:@"delegate"];
+    QueryDiskCacheBlock block = [arguments objectForKey:@"block"];
     NSDictionary *info = [arguments objectForKey:@"userInfo"];
     UIImage *image = [arguments objectForKey:@"image"];
 
@@ -200,12 +201,18 @@ static SDImageCache *instance;
         {
             [delegate imageCache:self didFindImage:image forKey:key userInfo:info];
         }
+        else if(block) {
+            block(image, key, info);
+        }
     }
     else
     {
         if ([delegate respondsToSelector:@selector(imageCache:didNotFindImageForKey:userInfo:)])
         {
             [delegate imageCache:self didNotFindImageForKey:key userInfo:info];
+        }
+        else if(block) {
+            block(nil, key, info);
         }
     }
 }
@@ -271,9 +278,15 @@ static SDImageCache *instance;
     [self storeImage:image imageData:nil forKey:key toDisk:toDisk];
 }
 
+- (BOOL)hasCacheForKey:(NSString*)key {
+    UIImage *image = [memCache objectForKey:key];
+    if(image) {
+        return YES;
+    }
+    return [[NSFileManager defaultManager] fileExistsAtPath:[self cachePathForKey:key]];
+}
 
-- (UIImage *)imageFromKey:(NSString *)key
-{
+- (UIImage *)imageFromKey:(NSString *)key {
     return [self imageFromKey:key fromDisk:YES];
 }
 
@@ -329,6 +342,39 @@ static SDImageCache *instance;
     NSMutableDictionary *arguments = [NSMutableDictionary dictionaryWithCapacity:3];
     [arguments setObject:key forKey:@"key"];
     [arguments setObject:delegate forKey:@"delegate"];
+    if (info)
+    {
+        [arguments setObject:info forKey:@"userInfo"];
+    }
+    NSInvocationOperation *operation = SDWIReturnAutoreleased([[NSInvocationOperation alloc] initWithTarget:self
+                                                                                                   selector:@selector(queryDiskCacheOperation:)
+                                                                                                     object:arguments]);
+    [cacheOutQueue addOperation:operation];
+}
+
+- (void)queryDiskCacheForKey:(NSString *)key userInfo:(NSDictionary *)info block:(QueryDiskCacheBlock)block {
+    if (!block)
+    {
+        return;
+    }
+    
+    if (!key)
+    {
+        block(nil, key, info);
+        return;
+    }
+    
+    // First check the in-memory cache...
+    UIImage *image = [memCache objectForKey:key];
+    if (image)
+    {
+        block(image, key, info);
+        return;
+    }
+    
+    NSMutableDictionary *arguments = [NSMutableDictionary dictionaryWithCapacity:3];
+    [arguments setObject:key forKey:@"key"];
+    [arguments setObject:[block copy] forKey:@"block"];
     if (info)
     {
         [arguments setObject:info forKey:@"userInfo"];
